@@ -32,3 +32,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 ## 💻 Projeto
+
+O Devlinks é um agregador de links para usar como cartao de visitas online.
+
+## 📰 Layout
+
+Você pode visualizar esse projeto através [DESSE LNK](https://www.figma.com/file/iGITkjJ3OnK53J5thdD2zA/DevLinks-(Community)?node-id=0-1&t=Ql1HpbeEFcvuQ6r9-0). É necessario ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## :memo: Licença
+
+Esse projeto está sob licença MIT.
+
+Feito através das aulas do DevLinks fornecido pela [ROCKETSEAT](https://https://www.rocketseat.com.br/).
