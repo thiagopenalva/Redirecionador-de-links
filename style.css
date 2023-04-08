@@ -25,7 +25,7 @@ background-size: cover;
 
 .light {
     --text-color: black;
-    --bg-url: url(./assets/bg-lightmode.jpg);
+    --bg-url: url(./assets/bg-mobilelight.jpg);
     --surface-color: rgba(0, 0, 0, 0.05);
     --border-color: rgba(0, 0, 0, 0.5);
     --bg-hover: rgba(0, 0, 0, 0.1);
@@ -34,6 +34,7 @@ background-size: cover;
 body
 {
     background: var(--bg-url) no-repeat top center/ cover;
+    height: 100vh;
 }
 body * { 
     font-family: 'Inter', sans-serif;
@@ -168,4 +169,16 @@ footer {
     text-align: center;
     font-size: 14px;
     font-weight: 400 ;
+}
+
+/*media queries*/
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg)
+    }
+
+    .light {
+        --bg-url: url(./assest/bg-desktoplight.jpg)
+    }
 }
